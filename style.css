@@ -16,10 +16,10 @@ body{
     border-radius: 10px ;
     padding: 20px;
     width: 300px;
-    background-color: white;
+    background-color: rgba(17, 14, 55, 0.688);
 }
 #display{
-    height: 50px;
+    height: 100px;
     width: 100%;
     text-align: right;
     font-size: 24px;
@@ -27,6 +27,8 @@ body{
     margin-bottom: 15px;
     border: none;
     border-bottom: 2px solid #333;
+    background-color: black;
+    color: white;
 }
 .buttons{
     display: grid;
@@ -38,12 +40,12 @@ button{
     font-size: 18px;
     cursor: pointer;
     border: none;
-    background-color:rgb(255, 238, 6);
+    background-color:rgb(24, 250, 216);
     color: rgb(20, 19, 19);
     border-radius: 50px;
     transition: all 0.2s linear;
 
 }
 button:hover{
-    background-color: #908702;
+    background-color: #228d93;
 }
